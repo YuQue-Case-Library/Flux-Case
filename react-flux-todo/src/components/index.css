@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 50px auto 0;
+  width: 400px;
+  min-height: 400px;
+  border: 1px solid #eee;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  height: 28px;
+  line-height: 28px;
+  width: 100%;
+}
+
+.list {
+  padding-left: 20px; 
+  text-align: left;
+}
+
+.item {
+  height: 32px;
+  line-height: 32px;
+  list-style: none;
+}
+
+.item .close {
+  margin-left: 20px;
+  border: 1px solid #333;
+  padding: 2px 4px;
+  cursor: pointer;
+}
