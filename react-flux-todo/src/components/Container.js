@@ -38,7 +38,7 @@ export default class Container extends Component {
     return (
       <div className="container">
         <div className="btn-wrapper">
-          <button onClick>全部</button>
+          <button>全部</button>
           <button>已完成</button>
           <button>未完成</button>
         </div>
