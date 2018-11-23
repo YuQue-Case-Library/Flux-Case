@@ -13,6 +13,16 @@
   justify-content: space-between;
 }
 
+.filter-btn {
+  text-decoration: none;
+  color: #333;
+}
+
+.filter-btn.current {
+  color: blue;
+  text-decoration: underline;
+}
+
 .input {
   height: 28px;
   line-height: 28px;
