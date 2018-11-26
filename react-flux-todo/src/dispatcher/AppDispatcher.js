@@ -14,6 +14,10 @@ AppDispatcher.register(({ type, id, text, status }) => {
       ListStore.removeItem(id);
       ListStore.emitChange();
       break;
+    case 'REMOVE_ALL':
+      ListStore.removeAll();
+      ListStore.emitChange();
+      break;
     case 'CHANGE_STATUS':
       ListStore.changeItemStatus(id, status);
       ListStore.emitChange();

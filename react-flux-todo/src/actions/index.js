@@ -15,6 +15,12 @@ export default {
     })
   },
 
+  removeAll() {
+    AppDispatcher.dispatch({
+      type: 'REMOVE_ALL',
+    })
+  },
+
   changeStatus(id, status) {
     AppDispatcher.dispatch({
       type: 'CHANGE_STATUS',

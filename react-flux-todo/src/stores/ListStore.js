@@ -26,6 +26,10 @@ export default assign({}, EventEmitter.prototype, {
     this.items = this.items.filter(({id}) => id !== removeId);
   },
 
+  removeAll() {
+    this.items = [];
+  },
+
   // 根据 ID 改变 item 状态
   changeItemStatus(changeId, status) {
     this.items.some((item, index) => {
